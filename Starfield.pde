@@ -37,7 +37,7 @@ class Particle
   }
    void show() {
     fill(myColor);
-    square((float)myX, (float)myY, 5);
+   rect((float)myX, (float)myY, 5,5);
   }
 }
 class OddballParticle extends Particle
