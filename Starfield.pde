@@ -42,7 +42,7 @@ class Particle
 }
 class OddballParticle extends Particle
 {
-  OddballParticle()//inherits from Particcle 
+  OddballParticle()//inherits from Particle 
   {
     myX = 150;
     myY = 150;
