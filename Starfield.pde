@@ -3,6 +3,7 @@ Particle[] dots;
 void setup()
 {
    size (300, 300);
+   frameRate(240);
   dots = new Particle[5000];
   for (int i=0;i<dots.length;i++) {
    dots[i]= new Particle();
@@ -60,3 +61,4 @@ class OddballParticle extends Particle
     myY = myY + (int)(Math.random()*3)-1;
   }
 }
+
