@@ -42,7 +42,7 @@ class Particle
 }
 class OddballParticle extends Particle
 {
-  OddballParticle()//inherits from Particle 
+  OddballParticle()//inherit from Particle 
   {
     myX = 150;
     myY = 150;
@@ -61,5 +61,3 @@ class OddballParticle extends Particle
     myY = myY + (int)(Math.random()*3)-1;
   }
 }
-
-
